@@ -5,6 +5,7 @@ description: Delegate work to reduce costs without lowering code quality.
 
 Delegate by required intelligence when savings exceed coordination overhead.
 
+- Read [RTK.md](RTK.md) before running commands; instruct subagents to do the same.
 - Examples: cheaper agents for routine edits, tests, and output inspection; parent for difficult reasoning and consequential review.
 - Assign a bounded goal, constraints, and acceptance checks. Start unrelated tasks with fresh, minimal context; reuse agents when substantial prior context remains relevant.
 - Await the parent's decision when unresolved uncertainty affects correctness, behavior, contracts, or scope. Never introduce behavior outside the assigned scope, add dummy implementations, or weaken types/checks merely to make compilation or tests pass.
