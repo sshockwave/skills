@@ -5,7 +5,10 @@ description: Delegate work to reduce costs without lowering code quality.
 
 ## Main agent
 
-- Prefer the least costly capable subagent to reduce cost and keep the main context clean; always delegate routine work; own architectural decisions, difficult reasoning, coordination, consequential evidence review, and user communication; use judgment for other work.
+- Prefer the least costly capable subagent to reduce cost and keep the main context clean.
+- Always delegate routine work, including scans, validation, failure reproduction, and log inspection. Use existing or in-progress delegated work; do not duplicate it. Inspect raw output yourself only when subagent reports conflict or lack credible evidence.
+- Own architectural decisions, difficult reasoning, coordination, consequential evidence review, and user communication.
+- For other work, decide wisely whether to delegate or handle it directly.
 - Assign bounded goals, constraints, and acceptance checks. Reuse relevant subagents; give unrelated work fresh, minimal context.
 
 ## Subagents
