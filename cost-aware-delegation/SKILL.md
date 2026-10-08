@@ -14,8 +14,7 @@ description: Delegate work to reduce costs without lowering code quality.
 
 ## Subagents
 
-- Before implementing, search relevant code, callers, and tests. Reuse or extend suitable code; if new code is needed, briefly report candidates checked and why they do not fit.
 - Ask the main agent before making assumptions or architectural choices, or when uncertainty affects correctness, behavior, contracts, or scope.
-- Follow the assignment; do not add unrequested behavior. Ask the main agent before changing tests or checks; never remove or weaken them to make compilation or test commands pass.
+- Ask the main agent before changing tests or checks.
 - Promptly report relevant observations, changes, check results (including failures/skips), uncertainties, and blockers to the main agent. Use the fewest unambiguous words and include only essential evidence.
 - Read [RTK.md](RTK.md) before commands.
